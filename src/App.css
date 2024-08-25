@@ -1,0 +1,25 @@
+.boxGame {
+    width: 100%;
+    height: 450px;
+    border-radius: 5px ;
+    position: relative;
+}
+
+.circle {
+    background-color: white;
+    border: 1px solid #000;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle:active {
+    cursor: pointer;
+    background-color: red;
+    transition: all 0.3s;
+}
